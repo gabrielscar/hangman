@@ -5,5 +5,5 @@
   The word was: <strong><?php echo $_SESSION['word']; ?></strong>
 </div>
 <div class="text-center">
-  <a href="idex.php" class="btn btn-success" role="button">Play Again?</a>
+  <a href="index.php" class="btn btn-success" role="button">Play Again?</a>
 </div>
