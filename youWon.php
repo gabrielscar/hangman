@@ -2,5 +2,5 @@
   You won the game!
 </div>
 <div class="text-center">
-  <a href="hangman.php" class="btn btn-success" role="button">Play Again?</a>
+  <a href="index.php" class="btn btn-success" role="button">Play Again?</a>
 </div>
