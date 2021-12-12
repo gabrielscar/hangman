@@ -14,7 +14,7 @@ if(isset($_POST['selectCategory'])) {
   $category = $_POST['wordListCategory'];
   $_SESSION['category'] = $category;
   unset($_SESSION['word']);
-  header(("Location: hangman.php"));
+  header(("Location: index.php"));
 }
 
 function getCategory () {
@@ -31,7 +31,7 @@ function resetScoreboard () {
   $_SESSION['incorrectGuesses'] = 0;
   $_SESSION['gamesWon'] = 0;
   $_SESSION['gamesLost'] = 0;
-  header("Location: hangman.php");
+  header("Location: index.php");
   
 }
 
